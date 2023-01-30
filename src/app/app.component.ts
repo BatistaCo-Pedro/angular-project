@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-project';
+  InputedItem = "Input Item"
+  color = "FFFFFF"
+
+  addColor(newColor : string) {
+    this.color = newColor;
+  }
 }

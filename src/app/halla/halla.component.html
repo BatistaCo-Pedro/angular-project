@@ -1,0 +1,8 @@
+<p *ngIf="isActive">halla works!</p>
+<button (click)="isActive = !isActive">{{isActive}}</button>
+
+<div *ngFor="let item of list">{{item}}</div>
+
+<p>{{item}}</p>
+
+<button type="button" (click)="addNewBoxColor('#454565')">Add change parent color</button>

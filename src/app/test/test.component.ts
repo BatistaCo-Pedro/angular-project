@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class TestComponent {
-  content = "This is some content"
+  content = "This is some content";
 }
